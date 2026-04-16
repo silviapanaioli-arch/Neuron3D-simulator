@@ -1,8 +1,10 @@
 # Neuron3D-simulator
 C-Neuron3D: Hodgkin-Huxley and 3D Morphology Simulator
+
 This project is a bio-physical simulator written in C that visualizes and simulates neuronal activity in a 3D environment using OpenGL and FreeGLUT. It integrates the Hodgkin-Huxley (HH) model for membrane dynamics and allows for the loading of complex neuronal morphologies from SWC files.
 
 How to Compile and Run
+
 The project uses a makefile to manage the build process. To compile the program, you need a C compiler (GCC) and the OpenGL/GLUT development libraries.
 - Open your terminal (MSYS2 MINGW64 is recommended for Windows users).
 - Navigate to the project folder: cd /path/to/Neuron3D-simulator
@@ -11,14 +13,17 @@ The project uses a makefile to manage the build process. To compile the program,
   
 data: Place your morphology files here. The program specifically looks for data/simple.swc when adding a new neuron.
 
+
 Usage and Keyboard Commands
 
 Once the simulator is running, use the following keys to interact with the 3D scene and the simulation parameters:
 
 Arrows (Up/Down/Left/Right): 
+
 Rotate the camera view around the 3D scene.
 
-'+'/'-': 
+'+' / '-': 
+
 Zoom in or out of the 3D view .
 
 Spacebar: 
@@ -65,6 +70,7 @@ Resting Potential (V ): -65.0 mV.
 Initial Zoom: 600.0f.
 
 Frame Delay: 10 ms (default simulation speed).
+
 
 
 Scientific Background
