@@ -21,7 +21,7 @@ Once the simulator is running, use the following keys to interact with the 3D sc
 Arrows (Up/Down/Left/Right)
 Rotate the camera view around the 3D scene.
 
- + / -
+'+'/'-'
 Zoom in or out of the 3D view .
 
 Spacebar
